@@ -1,0 +1,19 @@
+[project]
+name = "novel-exporter"
+version = "0.1.0"
+description = "Download novels and export to various formats (epub, pdf, txt)"
+requires-python = ">=3.14"
+dependencies = [
+    "ebooklib>=0.20",
+    "httpx>=0.28.1",
+    "reportlab>=4.5.1",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+exporter = "exporter:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
