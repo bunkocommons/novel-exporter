@@ -1,6 +1,6 @@
 # novel-exporter
 
-Download novels from online novel sites (such as Syosetsu wo Yomou 小説を読もう) and
+Download novels from online novel sites (such as Syosetsu wo Yomou 小説を読もう, Kakuyomu) and
 export them to EPUB, PDF, or plain text.
 
 ## Requirements

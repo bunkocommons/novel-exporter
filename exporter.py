@@ -6,9 +6,9 @@ import sys
 from pathlib import Path
 
 from exporters import EpubExporter, PdfExporter, TxtExporter
-from scrapers import SyosetsuScraper
+from scrapers import KakuyomuScraper, SyosetsuScraper
 
-SCRAPERS = [SyosetsuScraper()]
+SCRAPERS = [SyosetsuScraper(), KakuyomuScraper()]
 EXPORTERS = {
     "epub": EpubExporter(),
     "pdf": PdfExporter(),
